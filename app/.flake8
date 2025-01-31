@@ -1,6 +1,8 @@
 [flake8]
-exclude = 
-    migration, 
+exclude =
+    migration,
     __pycahce__,
     manage.py,
     settings.py
+per-file-ignores =
+    core/migrations/0001_initial.py: E501
